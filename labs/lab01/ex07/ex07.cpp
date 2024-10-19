@@ -15,7 +15,7 @@ int main()
     car.fillTank(30);
     car.getFuelQuantity();
     car.fillTank(30);
-    
+
 
     float consumption = car.moveCar(30);
     car.fillTank(-consumption);

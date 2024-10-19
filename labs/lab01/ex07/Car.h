@@ -9,7 +9,7 @@ private:
 public:
 	// constructor
 	Car();
-	
+
 	void fillTank(float quantity);
 	float moveCar(float distance);
 	void getFuelQuantity();

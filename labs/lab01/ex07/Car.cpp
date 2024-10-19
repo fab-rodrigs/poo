@@ -23,7 +23,7 @@ void Car::fillTank(float quantity)
 		else {
 			cout << "\nEsvaziando " << quantity << "l..." << endl;
 		}
-		
+
 	}
 	else {
 		cout << "\nQuantidade acima do limite!" << endl;
@@ -54,3 +54,4 @@ void Car::getTotalDistanceTraveled()
 {
 	cout << "\nDistancia percorrida: " << _position << "km" << endl;
 }
+
