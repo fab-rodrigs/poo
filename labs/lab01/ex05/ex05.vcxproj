@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{58e5131d-7027-4d81-bb69-e14863b0412e}</ProjectGuid>
-    <RootNamespace>ex5</RootNamespace>
+    <ProjectGuid>{fbb69586-e8de-4056-b47b-fa6977254eb4}</ProjectGuid>
+    <RootNamespace>ex05</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex5.cpp" />
+    <ClCompile Include="ex05.cpp" />
     <ClCompile Include="Television.cpp" />
   </ItemGroup>
   <ItemGroup>
