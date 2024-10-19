@@ -1,6 +1,10 @@
 #ifndef TELEVISION_H
 #define TELEVISION_H
 
+#include <iostream>
+
+using namespace std;
+
 class Television
 {
 private:
@@ -15,8 +19,9 @@ public:
 	void increaseChannel();
 	void decreaseChannel();
 
-	void getVolume();
-	void getChannel();
+	void getVolume() { cout << "\nVolume: " << _volume << endl; }
+	void getChannel() { cout << "\nChannel: " << _channel << endl; }
 };
 
 #endif // TELEVISION_H
+

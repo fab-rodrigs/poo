@@ -49,13 +49,3 @@ void Television::decreaseChannel()
 	}
 }
 
-void Television::getVolume()
-{
-	cout << "\nVolume: " << _volume << endl;
-}
-
-void Television::getChannel()
-{
-	cout << "\nChannel: " << _channel << endl;
-}
-
